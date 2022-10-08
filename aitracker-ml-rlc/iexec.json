@@ -1,0 +1,24 @@
+{
+  "description": "Project AI Performance Tracking. This is a machine learning model dapp that tries to predict the price of a rlc. Just run the dapp with no arguments and you will recieve the prediction in a json file. This dapp is a demo, not an advice for trading.",
+  "license": "MIT",
+  "author": "David Ilievski",
+  "social": {
+    "github": "@ilievski-david"
+  },
+  "logo": "logo.png",
+  "buyConf": {
+    "params": {
+      "iexec_args": ""
+    },
+    "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "trust": "0",
+    "callback": "0x0000000000000000000000000000000000000000"
+  },
+  "app": {
+    "owner": "0x8c45E55253322D8Ec36b8915D48f8957a72b8397",
+    "name": "aitracker-ml-rlcusdt-1.0.0",
+    "type": "DOCKER",
+    "multiaddr": "registry.hub.docker.com/id997/aitracker-ml-rlcusdt:1.0.0",
+    "checksum": "0x540471ba625cdf68de40105c4678589516556a9d2bd676fa841538593178660e"
+  }
+}

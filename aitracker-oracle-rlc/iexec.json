@@ -1,0 +1,24 @@
+{
+  "description": "Project AI Performance Tracking.The project tries to track the performance of machine learning dapps on iexec. This is the second dapp from the project, it is used to validate the result from the machine learning dapp.",
+  "license": "MIT",
+  "author": "David Ilievski",
+  "social": {
+    "github": "@ilievski-david"
+  },
+  "logo": "logo.png",
+  "buyConf": {
+    "params": {
+      "iexec_args": ""
+    },
+    "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "trust": "0",
+    "callback": "0x0000000000000000000000000000000000000000"
+  },
+  "app": {
+    "owner": "0x8c45E55253322D8Ec36b8915D48f8957a72b8397",
+    "name": "aitracker-oracle-rlcusdt-1.0.0",
+    "type": "DOCKER",
+    "multiaddr": "registry.hub.docker.com/id997/aitracker-oracle-rlcusdt:1.0.0",
+    "checksum": "0x6e9aa632334735961837ebb86b644deebd2c50f489a3a22b42ca208af41cb605"
+  }
+}

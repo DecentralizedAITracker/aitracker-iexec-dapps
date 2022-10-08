@@ -1,0 +1,24 @@
+{
+  "description": "Project AI Performance Tracking. This is a machine learning model dapp that tries to predict the price of a bitcoin. Just run the dapp with no arguments and you will recieve the prediction in a json file. This dapp is a demo, not an advice for trading.",
+  "license": "MIT",
+  "author": "David Ilievski",
+  "social": {
+    "github": "@ilievski-david"
+  },
+  "logo": "logo.png",
+  "buyConf": {
+    "params": {
+      "iexec_args": ""
+    },
+    "tag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "trust": "0",
+    "callback": "0x0000000000000000000000000000000000000000"
+  },
+  "app": {
+    "owner": "0x8c45E55253322D8Ec36b8915D48f8957a72b8397",
+    "name": "aitracker-ml-btc-0.1.3",
+    "type": "DOCKER",
+    "multiaddr": "registry.hub.docker.com/id997/aitracker-ml-btcusdt:0.1.3",
+    "checksum": "0x0c9472647f05ecd3496a149e165cdec9ba6bc46d230425f7b11be49ab25969d3"
+  }
+}
